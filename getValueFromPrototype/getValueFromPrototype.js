@@ -24,3 +24,5 @@ function getValue(object, prop) {
   //如果该对象没有这个属性则递归调用getValue方法
   return getValue(Object.getPrototypeOf(object), prop);
 }
+
+ //test
